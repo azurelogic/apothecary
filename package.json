@@ -1,0 +1,35 @@
+{
+  "name": "apothecary",
+  "version": "1.0.0",
+  "description": "Deliver all sorts of tinctures, tonics, and toxins to your node code",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azurelogic/apothecary.git"
+  },
+  "keywords": [
+    "inject",
+    "eval",
+    "logging",
+    "lambda",
+    "aws",
+    "debug",
+    "hotfix"
+  ],
+  "author": "Rob Ribeiro <azurelogic@gmail.com> (https://azurelogic.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azurelogic/apothecary/issues"
+  },
+  "homepage": "https://github.com/azurelogic/apothecary#readme",
+  "dependencies": {
+    "axios": "^0.16.1"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "testdouble": "^2.1.2"
+  }
+}
